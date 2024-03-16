@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+div#timer{
+    font-size: 120px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+div#controls{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.box button{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid #333333;
+    transition: 0.3s;
+    box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.box button:hover{
+    box-shadow: 0 0 #333;
+    color: #fff;
+    background-color: #333;
+}
