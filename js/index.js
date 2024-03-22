@@ -104,7 +104,7 @@ function b_hour() {
     }
   
     timeToCountDown += 60 * 60 * 1000;
-    if (timeToCountDown >= 2 * 60 * 60 * 1000) {
+    if (timeToCountDown >= 4 * 60 * 60 * 1000) {
       timeToCountDown = 0;
     }
   
