@@ -9,7 +9,7 @@ var slider_volume = document.getElementById("volume");
 const bgm = new Audio('./HeavenAndHell.wav');
 bgm.loop = true;
 bgm.volume = slider_volume.value;
-const se  = new Audio('./explosion.mp3'); 
+const se  = new Audio('./explosion.wav'); 
 
 //スタートボタンを押した時の時間を入れる変数
 var startTime;
